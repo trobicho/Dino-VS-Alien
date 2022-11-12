@@ -3,7 +3,7 @@
 
 
 rock_offset_x=0;
-rock_offset_y=-50;
+rock_offset_y=0;
 
 //shoot_speed;
 is_shooting=false;
