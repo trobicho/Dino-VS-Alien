@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_controllerGlobal",
+  "name": "obj_controllerScrolling",
   "spriteId": null,
   "solid": false,
   "visible": true,

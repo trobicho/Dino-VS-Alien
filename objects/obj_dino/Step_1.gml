@@ -10,17 +10,18 @@ hmove = keyboard_check(vk_right) - keyboard_check(vk_left) + keyboard_check(ord(
 jump = keyboard_check_pressed(vk_space);
 
 if (place_meeting(x, y + 1, obj_collider)) {
-	vsp = 0;
+	vspeed = 0;
 	if (jump) {
-		vsp = -jump_speed;
+		vspeed = -jump_speed;
 	}
 }
 
 if (!place_meeting(x, y + 1, obj_collider)) {
-	vsp += grv;
+	vspeed += grv;
 }
 
-hsp = hmove * delta_speed;
+hspeed = hmove * delta_speed;
+var controllerScrolling = instance_find(obj_controllerScrolling, 0);
 
-x += hsp;
-y += vsp;
+if (controllerScrolling != noone)
+	 hspeed += controllerScrolling.scrolling_speed;

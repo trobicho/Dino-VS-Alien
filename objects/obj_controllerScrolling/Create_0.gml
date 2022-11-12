@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-room.hspeed = -scrolling_speed;
+scrolling_speed = 3.0
