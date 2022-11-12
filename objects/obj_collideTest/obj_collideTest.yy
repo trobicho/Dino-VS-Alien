@@ -6,7 +6,7 @@
     "name": "Sprite2",
     "path": "sprites/Sprite2/Sprite2.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

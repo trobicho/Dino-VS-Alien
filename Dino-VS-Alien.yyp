@@ -4,6 +4,7 @@
   "name": "Dino-VS-Alien",
   "resources": [
     {"id":{"name":"obj_collider","path":"objects/obj_collider/obj_collider.yy",},"order":2,},
+    {"id":{"name":"obj_controllerGlobal","path":"objects/obj_controllerGlobal/obj_controllerGlobal.yy",},"order":4,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
     {"id":{"name":"spr_volcan","path":"sprites/spr_volcan/spr_volcan.yy",},"order":2,},
     {"id":{"name":"spr_dinoPlaceholder","path":"sprites/spr_dinoPlaceholder/spr_dinoPlaceholder.yy",},"order":0,},
