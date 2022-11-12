@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_dino",
   "spriteId": {
-    "name": "spr_dinoPlaceholder",
-    "path": "sprites/spr_dinoPlaceholder/spr_dinoPlaceholder.yy",
+    "name": "spr_raptor_strip6",
+    "path": "sprites/spr_raptor_strip6/spr_raptor_strip6.yy",
   },
   "solid": true,
   "visible": true,
@@ -29,7 +29,9 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_collider","path":"objects/obj_collider/obj_collider.yy",},},
   ],
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"variable_name","varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+  ],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
