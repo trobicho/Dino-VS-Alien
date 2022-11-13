@@ -29,13 +29,3 @@ if(can_shoot){
 	alarm[0]=room_speed*shoot_cooldown;
 	can_shoot=false;
 }
-
-/*
-var controllerScrolling = instance_find(obj_controllerScrolling, 0);
-
-if (controllerScrolling != noone) {
-	x+=controllerScrolling.scrolling_speed * delta_time / 1000000;
-}
-*/
-
-x = volcano_offset_x + layer_get_x(layer_get_id("Volcano"));
