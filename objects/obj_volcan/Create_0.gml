@@ -7,5 +7,10 @@ rock_offset_y=-50;
 
 //shoot_speed;
 is_shooting=false;
-shoot_cooldown=0.2;
-can_shoot=true;
+shoot_cooldown=0.8;
+//can_shoot=true;
+
+initCooldown=3;
+//can_shoot=true;
+can_shoot=false;
+alarm[0]=room_speed*initCooldown;
