@@ -13,4 +13,5 @@ shoot_cooldown=0.8;
 initCooldown=3;
 //can_shoot=true;
 can_shoot=false;
+volcano_offset_x = x;
 alarm[0]=room_speed*initCooldown;
