@@ -6,7 +6,7 @@
     "name": "spr_raptor_strip6",
     "path": "sprites/spr_raptor_strip6/spr_raptor_strip6.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

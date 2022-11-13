@@ -30,5 +30,8 @@ if(can_shoot){
 	can_shoot=false;
 }
 
-//x+=obj_controllerScrolling.scrolling_speed*delta_time/1000000;
-x+=obj_controllerScrolling.scrolling_speed;
+var controllerScrolling = instance_find(obj_controllerScrolling, 0);
+
+if (controllerScrolling != noone) {
+	x+=controllerScrolling.scrolling_speed * delta_time / 1000000;
+}

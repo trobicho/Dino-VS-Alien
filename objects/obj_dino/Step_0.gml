@@ -13,18 +13,43 @@ jump = keyboard_check_pressed(vk_space);
 var is_grounded = place_meeting(x, y + 1, obj_collider);
 
 if (is_grounded) {
-	vspeed = 0;
+	show_debug_message("grounded");
+	spdY = 0;
 	if (jump) {
-		vspeed = -jump_speed;
+		spdY = -jump_speed;
 	}
 }
+
 else {
-	vspeed += grv;
+	spdY += grv;
 }
 
-hspeed = hmove * delta_speed;
+spdX = hmove * delta_speed;
 var controllerScrolling = instance_find(obj_controllerScrolling, 0);
 
 if (controllerScrolling != noone) {
-	 hspeed += controllerScrolling.scrolling_speed;
+	 spdX += controllerScrolling.scrolling_speed;
+}
+
+var X = spdX * delta_time / 1000000;
+var Y = spdY * delta_time / 1000000;
+
+if (place_meeting(x + X, y, obj_collider)) {
+	var Xp = X / 20.0;
+	while (!place_meeting(x + Xp, y, obj_collider)) {
+		x += Xp;
+	}
+}
+else {
+	x += X;
+}
+
+if (place_meeting(x, y + Y, obj_collider)) {
+	var Yp = Y / 20.0;
+	while (!place_meeting(x, y + Yp, obj_collider)) {
+		y += Yp;
+	}
+}
+else {
+	y += Y;
 }
