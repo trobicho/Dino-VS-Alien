@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_round",
+  "name": "obj_ground",
   "spriteId": {
-    "name": "Sprite2",
-    "path": "sprites/Sprite2/Sprite2.yy",
+    "name": "sol1",
+    "path": "sprites/sol1/sol1.yy",
   },
   "solid": true,
   "visible": true,
