@@ -18,6 +18,6 @@ if (controllerScrolling != noone) {
 	x+=controllerScrolling.scrolling_speed * delta_time / 1000000;
 }
 
-if(x<0 || x>room_width || y>room_height){
+if(x<0 || x>room_width || y>room_height) {
 	instance_destroy(self);
 }

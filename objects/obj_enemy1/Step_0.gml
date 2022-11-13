@@ -13,6 +13,6 @@ if(can_shoot){
 
 
 //x+=sin(alphaX*T+betaX);
-x+=spdX*delta_time/1000000;
+x+=spdX*delta_time / 1000000;
 y+=sin(alphaY*T+betaY);
-T+=delta_time/1000000;
+T+=delta_time / 1000000;
