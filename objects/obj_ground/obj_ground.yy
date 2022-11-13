@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_ground",
   "spriteId": {
-    "name": "sol1",
-    "path": "sprites/sol1/sol1.yy",
+    "name": "sol3",
+    "path": "sprites/sol3/sol3.yy",
   },
   "solid": true,
   "visible": true,
