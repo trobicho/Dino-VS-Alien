@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_volcan",
   "spriteId": {
-    "name": "spr_volcan",
-    "path": "sprites/spr_volcan/spr_volcan.yy",
+    "name": "volcano",
+    "path": "sprites/volcano/volcano.yy",
   },
   "solid": false,
   "visible": true,
