@@ -29,3 +29,6 @@ if(can_shoot){
 	alarm[0]=room_speed*shoot_cooldown;
 	can_shoot=false;
 }
+
+//x+=obj_controllerScrolling.scrolling_speed*delta_time/1000000;
+x+=obj_controllerScrolling.scrolling_speed;
