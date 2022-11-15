@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-instance_destroy(self);
+if(other.T>0.6) instance_destroy(self);
 

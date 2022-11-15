@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(can_spawn){
+if(can_spawn && instance_number(obj_enemy1)<max_enemy){
 	/*for(var i=0;i<instance_number(obj_enemySpawnPoint);i++){
 		
 	}*/

@@ -6,6 +6,7 @@
     {"id":{"name":"obj_collider","path":"objects/obj_collider/obj_collider.yy",},"order":2,},
     {"id":{"name":"spr_bullet1","path":"sprites/spr_bullet1/spr_bullet1.yy",},"order":1,},
     {"id":{"name":"obj_EnemyController","path":"objects/obj_EnemyController/obj_EnemyController.yy",},"order":1,},
+    {"id":{"name":"spr_laveSol","path":"sprites/spr_laveSol/spr_laveSol.yy",},"order":5,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":0,},
     {"id":{"name":"sol5","path":"sprites/sol5/sol5.yy",},"order":2,},
     {"id":{"name":"spr_volcan","path":"sprites/spr_volcan/spr_volcan.yy",},"order":1,},
@@ -19,8 +20,10 @@
     {"id":{"name":"volcano_smoke","path":"sprites/volcano_smoke/volcano_smoke.yy",},"order":2,},
     {"id":{"name":"background","path":"sprites/background/background.yy",},"order":0,},
     {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},"order":1,},
+    {"id":{"name":"TestRoomCocoNew","path":"rooms/TestRoomCocoNew/TestRoomCocoNew.yy",},"order":3,},
     {"id":{"name":"sol3","path":"sprites/sol3/sol3.yy",},"order":0,},
     {"id":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"order":0,},
+    {"id":{"name":"spr_lave","path":"sprites/spr_lave/spr_lave.yy",},"order":3,},
     {"id":{"name":"spr_rock1","path":"sprites/spr_rock1/spr_rock1.yy",},"order":0,},
     {"id":{"name":"obj_layerController","path":"objects/obj_layerController/obj_layerController.yy",},"order":9,},
     {"id":{"name":"spr_ennemi1_strip6","path":"sprites/spr_ennemi1_strip6/spr_ennemi1_strip6.yy",},"order":2,},
@@ -30,6 +33,7 @@
     {"id":{"name":"snd_music1","path":"sounds/snd_music1/snd_music1.yy",},"order":0,},
     {"id":{"name":"obj_enemySpawnPoint","path":"objects/obj_enemySpawnPoint/obj_enemySpawnPoint.yy",},"order":2,},
     {"id":{"name":"obj_rock3","path":"objects/obj_rock3/obj_rock3.yy",},"order":2,},
+    {"id":{"name":"spr_laveCrash","path":"sprites/spr_laveCrash/spr_laveCrash.yy",},"order":4,},
     {"id":{"name":"obj_rock2","path":"objects/obj_rock2/obj_rock2.yy",},"order":1,},
     {"id":{"name":"obj_volcan","path":"objects/obj_volcan/obj_volcan.yy",},"order":4,},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":15,},
@@ -61,6 +65,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"TestRoomCocoNew","path":"rooms/TestRoomCocoNew/TestRoomCocoNew.yy",},},
     {"roomId":{"name":"TestRoom2coco","path":"rooms/TestRoom2coco/TestRoom2coco.yy",},},
     {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
@@ -92,10 +97,10 @@
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"music","targets":-1,},
   ],
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.9.1.51",
+    "IDEVersion": "2022.8.1.37",
   },
 }

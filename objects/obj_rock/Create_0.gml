@@ -6,6 +6,11 @@ mass=1;
 vel=10;
 velx=1;
 vely=1;
+sprite_index=spr_lave;
+dir=0;
+prevX=0;
+prevY=0;
+enabled=true;
 
 
 Ax=0;
