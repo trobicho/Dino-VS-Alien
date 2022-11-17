@@ -1,11 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+/*
 if(Health<=0){
 	x-=scrolling_speed*delta_time/1000000;
 	exit;
 }
-
+*/
 
 unstuck();
 
@@ -13,10 +14,12 @@ var jump = 0;
 
 var hmove = 0;
 
-
-hmove = keyboard_check(vk_right) - keyboard_check(vk_left) + keyboard_check(ord("D")) - keyboard_check(ord("A"));
-jump = keyboard_check_pressed(vk_space);
-
+if(Health>0){
+	hmove = keyboard_check(vk_right) - keyboard_check(vk_left) + keyboard_check(ord("D")) - keyboard_check(ord("A"));
+	jump = keyboard_check_pressed(vk_space);
+}
+else
+	x-=scrolling_speed*delta_time/1000000;
 
 var is_grounded = place_meeting(x, y + 1, obj_collider);
 

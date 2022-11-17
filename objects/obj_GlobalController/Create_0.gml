@@ -4,3 +4,4 @@
 globalvar scrolling_speed;
 scrolling_speed = 150;
 
+randomize();
