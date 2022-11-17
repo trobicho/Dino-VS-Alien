@@ -4,8 +4,8 @@ if(enabled){
 	sprite_index=spr_laveSol;
 	enabled=false;
 	dir=-90;
-	x=other.x;
-	y=other.y;
+	//x=other.x;
+	//y=other.y;
 }
 
 

@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+/*
 cameraX = camera_get_view_x(view_camera[0]);
 layer_x(VolcanoId, cameraX);
 layer_x(BackgroundId, cameraX);
@@ -11,3 +12,7 @@ layer_x(SmokeId, cameraX);
 with (instance_find(obj_volcan, 0)) {
 	x = volcano_offset_x + layer_get_x(layer_get_id("Volcano"));
 }
+*/
+
+//layer_x(GroundId, layer_get_x(GroundId)+scrolling_speed*delta_time/1000000);
+//layer_x(GroundId, 100);
