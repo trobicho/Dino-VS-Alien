@@ -6,7 +6,7 @@
     "name": "spr_platefrome_strip5",
     "path": "sprites/spr_platefrome_strip5/spr_platefrome_strip5.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "ground",
+    "path": "folders/Objects/ground.yy",
   },
 }

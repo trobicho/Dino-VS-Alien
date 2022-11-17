@@ -7,6 +7,7 @@ shootOffsetY=0;
 aimOffsetX=100;
 aimOffsetY=0;
 
+appeared=false;
 initCooldown=3;
 //can_shoot=true;
 can_shoot=false;

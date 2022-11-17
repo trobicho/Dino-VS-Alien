@@ -1,6 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(x>room_width)
+	exit;
+else if(!appeared){
+	appeared=true;
+	alarm[0]=room_speed*initCooldown;
+}
 
 if(can_shoot){
 	with(instance_create_depth(x+shootOffsetX,y+shootOffsetY,1,obj_bullet1)){
