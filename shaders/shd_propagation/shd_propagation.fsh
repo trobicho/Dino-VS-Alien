@@ -8,23 +8,35 @@ uniform sampler2D s_lavaPropagation;
 uniform vec2 u_vTextCoord;
 uniform vec2 u_vTextSize;
 
+float sample_propagation(vec2 tc)
+{
+	vec4 sample = texture2D(s_lavaPropagation, tc);
+	return (min(sample.r, sample.a));
+}
+
+float sample_obstacle(vec2 tc)
+{
+	vec4 sample = texture2D(s_lavaObstacle, tc);
+	return (max(sample.r, 1.0 - sample.a));
+}
+
 vec4 propagate()
 {
-	vec4 obstacleColor = texture2D(s_lavaObstacle, v_vTexcoord);
-	vec2 textCoord = v_vTexcoord + u_vTextCoord;
-	vec4 propagationColor = texture2D(s_lavaPropagation, textCoord);
-	float level = propagationColor.x;
-	return (propagationColor);
+	float propagation = sample_propagation(v_vTexcoord);
+	float obstacle = sample_obstacle(v_vTexcoord);
+	float level = propagation;
 	
-	if (obstacleColor.x < 0.999) {
-		float neighUp = texture2D(s_lavaPropagation, textCoord + vec2(0.0, -1.0 / u_vTextSize.y)).x;
-		float neighRight = texture2D(s_lavaPropagation, textCoord + vec2(1.0 / u_vTextSize.x, 0.0)).x;
-		float neighLeft = texture2D(s_lavaPropagation, textCoord + vec2(-1.0 / u_vTextSize.x, 0.0)).x;
+	if (obstacle < 0.999) {
+		float neighUp = sample_propagation(v_vTexcoord + vec2(0.0, -1.0 / u_vTextSize.y));
+		float neighRight = sample_propagation(v_vTexcoord + vec2(1.0 / u_vTextSize.x, 0.0));
+		float neighLeft = sample_propagation(v_vTexcoord + vec2(-1.0 / u_vTextSize.x, 0.0));
 		
-		level = max(((neighUp + neighRight), neighLeft), propagationColor.x) + 0.2;
-		//level = propagationColor.x;
+		//level = max(((neighUp + neighRight), neighLeft) * (propagationColor.r + obstacleColor.r), propagationColor.r);
+		level = min(neighUp + neighRight + neighLeft, 1.0);
+		propagation += ((level - propagation) / 5.0) * (1.0 - obstacle);
+		propagation = propagation;
 	}
-	return (vec4(vec3(level), 1.0)) + 0.2;
+	return (vec4(propagation));
 }
 
 void main()

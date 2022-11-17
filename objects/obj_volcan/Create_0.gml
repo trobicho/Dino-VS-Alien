@@ -15,9 +15,15 @@ initCooldown=3;
 can_shoot=false;
 volcano_offset_x = x;
 alarm[0]=room_speed*initCooldown;
+
+speed_propagation = 0.0000001;
+last_time = current_time;
 surface_propagation = surface_create(sprite_width, sprite_height);
+surface_propagation_tmp = surface_create(sprite_width, sprite_height);
 surface_set_target(surface_propagation);
 draw_sprite(volcano_lava_propagation, 0, 0, 0);
-speed_propagation = 0.5;
-last_time = current_time;
+
+surface_reset_target();
+surface_set_target(surface_propagation_tmp);
+draw_sprite(volcano_lava_propagation, 0, 0, 0);
 surface_reset_target();
