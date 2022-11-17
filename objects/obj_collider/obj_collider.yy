@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "obj_collider",
   "spriteId": null,
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

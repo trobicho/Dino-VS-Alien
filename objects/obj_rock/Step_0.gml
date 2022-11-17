@@ -17,6 +17,7 @@ dir=point_direction(prevX,prevY,x,y);
 prevX=x;
 prevY=y;
 
+/*
 var controllerScrolling = instance_find(obj_controllerScrolling, 0);
 
 if (controllerScrolling != noone) {
@@ -25,6 +26,7 @@ if (controllerScrolling != noone) {
 	Bx+=controllerScrolling.scrolling_speed * delta_time / 1000000;
 	Cx+=controllerScrolling.scrolling_speed * delta_time / 1000000;
 }
+*/
 
 if(x<0 || x>room_width || y>room_height) {
 	instance_destroy(self);

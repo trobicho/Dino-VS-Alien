@@ -27,11 +27,14 @@ else {
 }
 
 spdX = hmove * delta_speed;
-var controllerScrolling = instance_find(obj_controllerScrolling, 0);
 
+//var controllerScrolling = instance_find(obj_controllerScrolling, 0);
+
+/*
 if (controllerScrolling != noone) {
 	 spdX += controllerScrolling.scrolling_speed;
 }
+*/
 
 var X = spdX * delta_time / 1000000;
 var Y = spdY * delta_time / 1000000;
