@@ -43,6 +43,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5BE7BAD0","properties":[],"isDnd":false,"objectId":{"name":"obj_EnemyController","path":"objects/obj_EnemyController/obj_EnemyController.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":32.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_708829F1","properties":[],"isDnd":false,"objectId":{"name":"obj_enemySpawnPoint","path":"objects/obj_enemySpawnPoint/obj_enemySpawnPoint.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1056.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_53842251","properties":[],"isDnd":false,"objectId":{"name":"obj_SoundController","path":"objects/obj_SoundController/obj_SoundController.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":32.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_34A7F0F6","properties":[],"isDnd":false,"objectId":{"name":"obj_shaderController","path":"objects/obj_shaderController/obj_shaderController.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":32.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Volcano","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_382FDA26","properties":[],"isDnd":false,"objectId":{"name":"obj_volcan","path":"objects/obj_volcan/obj_volcan.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":713.0,"y":224.0,},
@@ -52,7 +53,7 @@
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":{"name":"background","path":"sprites/background/background.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
   "inheritLayers": false,
-  "creationCodeFile": "",
+  "creationCodeFile": "${project_dir}/rooms/TestRoom2coco/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_66BA3FCC_1","path":"rooms/TestRoom2coco/TestRoom2coco.yy",},
@@ -82,6 +83,7 @@
     {"name":"inst_708829F1","path":"rooms/TestRoom2coco/TestRoom2coco.yy",},
     {"name":"inst_53842251","path":"rooms/TestRoom2coco/TestRoom2coco.yy",},
     {"name":"inst_60591B54","path":"rooms/TestRoom2coco/TestRoom2coco.yy",},
+    {"name":"inst_34A7F0F6","path":"rooms/TestRoom2coco/TestRoom2coco.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
