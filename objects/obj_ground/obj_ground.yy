@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_ground",
   "spriteId": {
-    "name": "sol3",
-    "path": "sprites/sol3/sol3.yy",
+    "name": "spr_sol1",
+    "path": "sprites/spr_sol1/spr_sol1.yy",
   },
   "solid": true,
   "visible": true,
@@ -27,7 +27,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

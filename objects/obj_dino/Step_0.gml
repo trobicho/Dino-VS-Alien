@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(Health<=0 || invincible) exit;
+
 var jump = 0;
 
 var hmove = 0;
@@ -13,7 +15,7 @@ jump = keyboard_check_pressed(vk_space);
 var is_grounded = place_meeting(x, y + 1, obj_collider);
 
 if (is_grounded) {
-	show_debug_message("grounded");
+	//show_debug_message("grounded");
 	spdY = 0;
 	if (jump) {
 		spdY = -jump_speed;
