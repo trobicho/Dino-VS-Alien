@@ -1,7 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(Health<=0 || invincible) exit;
+if(Health<=0){
+	x-=scrolling_speed*delta_time/1000000;
+	exit;
+}
+
+
+unstuck();
 
 var jump = 0;
 
@@ -40,7 +46,8 @@ var X = spdX * delta_time / 1000000;
 var Y = spdY * delta_time / 1000000;
 
 if (place_meeting(x + X, y, obj_collider)) {
-	var Xp = X / 20.0;
+	//var Xp = X / 20.0;
+	var Xp = sign(X);
 	while (!place_meeting(x + Xp, y, obj_collider)) {
 		x += Xp;
 	}
@@ -50,7 +57,8 @@ else {
 }
 
 if (place_meeting(x, y + Y, obj_collider)) {
-	var Yp = Y / 20.0;
+	//var Yp = Y / 20.0;
+	var Yp = sign(Y);
 	while (!place_meeting(x, y + Yp, obj_collider)) {
 		y += Yp;
 	}
