@@ -17,6 +17,7 @@ if(can_shoot){
 	}
 	can_shoot=false;
 	alarm[0]=room_speed*shoot_cooldown;
+	audio_play_sound(snd_laser1,1,false);
 }
 
 if(x<0-sprite_width)

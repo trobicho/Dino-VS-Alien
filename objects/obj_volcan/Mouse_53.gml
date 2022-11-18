@@ -23,4 +23,7 @@ if(can_shoot){
 	}
 	alarm[0]=room_speed*shoot_cooldown;
 	can_shoot=false;
+	
+	audio_sound_pitch(snd_volcanShoot,1+random_range(-0.3,0.3));
+	audio_play_sound(snd_volcanShoot,1,false);
 }
