@@ -7,4 +7,4 @@ spawn_cooldown=3;
 can_spawn=true;
 rangeX=100;
 rangeY=100;
-max_enemy=3;
+max_enemy=0;
