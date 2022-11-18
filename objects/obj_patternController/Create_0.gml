@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//patternlist=[seq_pattern1,seq_pattern2,seq_pattern3];
-//patternlist=[seq_pattern1,seq_ground];
-patternlist=[seq_pattern1];
+patternlist=[seq_pattern1,seq_pattern2,seq_pattern3,seq_pattern4,seq_ground];
+//patternlist=[seq_pattern1,seq_ground,seq_pattern2];
+//patternlist=[seq_pattern2];
 pattern=patternlist[irandom_range(0,array_length(patternlist)-1)];
 nextPattern=patternlist[irandom_range(0,array_length(patternlist)-1)];
 

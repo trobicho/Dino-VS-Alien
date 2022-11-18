@@ -41,6 +41,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4C3745F7_1_1","properties":[],"isDnd":false,"objectId":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":592.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_40060CF0_1_1","properties":[],"isDnd":false,"objectId":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1024.0,"y":592.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_343DEF23_1_1","properties":[],"isDnd":false,"objectId":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1152.0,"y":592.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_57C783C8","properties":[],"isDnd":false,"objectId":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1280.0,"y":592.0,},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Volcano","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_382FDA26_1_1","properties":[],"isDnd":false,"objectId":{"name":"obj_volcan","path":"objects/obj_volcan/obj_volcan.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":713.0,"y":224.0,},
@@ -73,6 +74,7 @@
     {"name":"inst_A101551","path":"rooms/CocoInfScrolling/CocoInfScrolling.yy",},
     {"name":"inst_3C8AED7D","path":"rooms/CocoInfScrolling/CocoInfScrolling.yy",},
     {"name":"inst_127CDC64","path":"rooms/CocoInfScrolling/CocoInfScrolling.yy",},
+    {"name":"inst_57C783C8","path":"rooms/CocoInfScrolling/CocoInfScrolling.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
