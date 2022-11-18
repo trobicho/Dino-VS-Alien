@@ -7,12 +7,13 @@ shootOffsetY=0;
 aimOffsetX=100;
 aimOffsetY=0;
 
+appeared=false;
 initCooldown=3;
 //can_shoot=true;
 can_shoot=false;
 alarm[0]=room_speed*initCooldown;
 
-spdX=100;
+spdX=300;
 alphaX=1;
 betaX=0;
 alphaY=1+random_range(-0.2,0.2);
