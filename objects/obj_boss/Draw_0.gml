@@ -3,11 +3,11 @@
 
 if (state != 0 && boss_alien_anim_index != -1) {
 	var index_alien = boss_alien_state_anim[state - 1][boss_alien_anim_index];
-	draw_sprite(spr_boss_alien_strip8, index_alien, x, y);
+	draw_sprite_ext(spr_boss_alien_strip8, index_alien, x, y, 1, 1, image_angle, c_white, 1);
 }
 else if (state == 1) {
-	draw_sprite(spr_boss_alien_strip8, 6, x, y);
+	draw_sprite_ext(spr_boss_alien_strip8, 6, x, y, 1, 1, image_angle, c_white, 1);
 }
 
-draw_sprite(spr_boss_ufo_glass_strip4, 0, x, y);
+draw_sprite_ext(spr_boss_ufo_glass_strip4, 0, x, y, 1, 1, image_angle, c_white, 1);
 draw_self();

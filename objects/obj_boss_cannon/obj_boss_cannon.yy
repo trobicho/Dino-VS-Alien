@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_boss_cannon",
   "spriteId": {
-    "name": "spr_boss_cannon32",
-    "path": "sprites/spr_boss_cannon32/spr_boss_cannon32.yy",
+    "name": "spr_boss_cannon",
+    "path": "sprites/spr_boss_cannon/spr_boss_cannon.yy",
   },
   "solid": false,
   "visible": true,
