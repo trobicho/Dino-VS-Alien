@@ -9,6 +9,7 @@ if(!just_hit){
 	if(Health<=0){
 		sprite_index=spr_raptorDeath;
 		show_debug_message("Dead");
+		audio_play_sound(snd_death,1,false);
 	}
 	else{
 		show_debug_message("inv");

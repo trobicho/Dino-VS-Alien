@@ -1,9 +1,9 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_music1",
+  "name": "snd_volcanShoot",
   "conversionMode": 0,
-  "compression": 1,
+  "compression": 0,
   "volume": 1.0,
   "preload": false,
   "bitRate": 128,
@@ -11,11 +11,11 @@
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "music",
-    "path": "audiogroups/music",
+    "name": "SFX",
+    "path": "audiogroups/SFX",
   },
-  "soundFile": "snd_music1.mp3",
-  "duration": 35.787724,
+  "soundFile": "snd_volcanShoot.mp3",
+  "duration": 1.750204,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

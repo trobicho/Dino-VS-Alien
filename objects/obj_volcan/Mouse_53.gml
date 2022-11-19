@@ -4,7 +4,7 @@
 
 
 if(can_shoot){
-	with(instance_create_depth(x+rock_offset_x,y+rock_offset_y,1,choose(obj_rock1,obj_rock2,obj_rock3))){
+	with(instance_create_depth(x+rock_offset_x,y+rock_offset_y,1,choose(obj_rock1,obj_rock2))){
 		//dir=point_direction(x+other.rock_offset_x,y+other.rock_offset_y,mouse_x,mouse_y)+random_range(-10,10);
 		//velx=lengthdir_x(vel,dir);
 		//vely=lengthdir_y(vel,dir);
@@ -23,4 +23,7 @@ if(can_shoot){
 	}
 	alarm[0]=room_speed*shoot_cooldown;
 	can_shoot=false;
+	
+	audio_sound_pitch(snd_volcanShoot,1+random_range(-0.3,0.3));
+	audio_play_sound(snd_volcanShoot,1,false);
 }

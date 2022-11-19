@@ -5,6 +5,7 @@
   "resources": [
     {"id":{"name":"obj_trouRight","path":"objects/obj_trouRight/obj_trouRight.yy",},"order":7,},
     {"id":{"name":"spr_sol3","path":"sprites/spr_sol3/spr_sol3.yy",},"order":2,},
+    {"id":{"name":"snd_laser1","path":"sounds/snd_laser1/snd_laser1.yy",},"order":3,},
     {"id":{"name":"obj_collider","path":"objects/obj_collider/obj_collider.yy",},"order":1,},
     {"id":{"name":"spr_sol1","path":"sprites/spr_sol1/spr_sol1.yy",},"order":0,},
     {"id":{"name":"seq_pattern2","path":"sequences/seq_pattern2/seq_pattern2.yy",},"order":5,},
@@ -34,7 +35,8 @@
     {"id":{"name":"snd_music2","path":"sounds/snd_music2/snd_music2.yy",},"order":1,},
     {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},"order":1,},
     {"id":{"name":"TestRoomCocoNew","path":"rooms/TestRoomCocoNew/TestRoomCocoNew.yy",},"order":3,},
-    {"id":{"name":"obj_health","path":"objects/obj_health/obj_health.yy",},"order":6,},
+    {"id":{"name":"obj_health","path":"objects/obj_health/obj_health.yy",},"order":8,},
+    {"id":{"name":"snd_volcanShoot","path":"sounds/snd_volcanShoot/snd_volcanShoot.yy",},"order":2,},
     {"id":{"name":"obj_shaderController","path":"objects/obj_shaderController/obj_shaderController.yy",},"order":1,},
     {"id":{"name":"spr_trouLeft","path":"sprites/spr_trouLeft/spr_trouLeft.yy",},"order":8,},
     {"id":{"name":"spr_ronce","path":"sprites/spr_ronce/spr_ronce.yy",},"order":3,},
@@ -48,6 +50,7 @@
     {"id":{"name":"spr_scroll_middle","path":"sprites/spr_scroll_middle/spr_scroll_middle.yy",},"order":11,},
     {"id":{"name":"obj_HUD","path":"objects/obj_HUD/obj_HUD.yy",},"order":7,},
     {"id":{"name":"obj_trou","path":"objects/obj_trou/obj_trou.yy",},"order":4,},
+    {"id":{"name":"snd_laser2","path":"sounds/snd_laser2/snd_laser2.yy",},"order":4,},
     {"id":{"name":"Background_ground","path":"sprites/Background_ground/Background_ground.yy",},"order":10,},
     {"id":{"name":"obj_ronce","path":"objects/obj_ronce/obj_ronce.yy",},"order":3,},
     {"id":{"name":"obj_bullet1","path":"objects/obj_bullet1/obj_bullet1.yy",},"order":3,},
@@ -68,6 +71,7 @@
     {"id":{"name":"spr_trouRight","path":"sprites/spr_trouRight/spr_trouRight.yy",},"order":9,},
     {"id":{"name":"obj_volcan","path":"objects/obj_volcan/obj_volcan.yy",},"order":2,},
     {"id":{"name":"obj_rock1","path":"objects/obj_rock1/obj_rock1.yy",},"order":0,},
+    {"id":{"name":"snd_death","path":"sounds/snd_death/snd_death.yy",},"order":5,},
     {"id":{"name":"background","path":"sprites/background/background.yy",},"order":9,},
     {"id":{"name":"spr_boss_ufo_base_strip3","path":"sprites/spr_boss_ufo_base_strip3/spr_boss_ufo_base_strip3.yy",},"order":3,},
     {"id":{"name":"obj_platform","path":"objects/obj_platform/obj_platform.yy",},"order":3,},
@@ -84,6 +88,7 @@
     {"id":{"name":"obj_rocheDeath","path":"objects/obj_rocheDeath/obj_rocheDeath.yy",},"order":5,},
     {"id":{"name":"TomtomInfScrolling","path":"rooms/TomtomInfScrolling/TomtomInfScrolling.yy",},"order":6,},
     {"id":{"name":"spr_platefrome_strip5","path":"sprites/spr_platefrome_strip5/spr_platefrome_strip5.yy",},"order":9,},
+    {"id":{"name":"snd_music3","path":"sounds/snd_music3/snd_music3.yy",},"order":6,},
     {"id":{"name":"obj_scrollingController","path":"objects/obj_scrollingController/obj_scrollingController.yy",},"order":0,},
     {"id":{"name":"CocoInfScrolling","path":"rooms/CocoInfScrolling/CocoInfScrolling.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
@@ -141,12 +146,13 @@
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"music","targets":-1,},
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"SFX","targets":-1,},
   ],
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.9.1.51",
+    "IDEVersion": "2022.8.1.37",
   },
 }
