@@ -16,3 +16,4 @@ with (instance_find(obj_volcan, 0)) {
 
 //layer_x(GroundId, layer_get_x(GroundId)+scrolling_speed*delta_time/1000000);
 //layer_x(GroundId, 100);
+

@@ -40,3 +40,12 @@ for(i=0;i<array_length(objs);i++){
 	//}
 	
 }
+
+/*var scroll_delta_speed = scrolling_speed * delta_time / 1000000;
+xForground = layer_get_x(ForgroundForestLayerId);
+if (xForground <= 10) {
+	layer
+}
+xMiddleground = layer_get_x(MiddlegroundForestLayerId);
+layer_x(ForgroundForestLayerId, xForground - scroll_delta_speed);
+layer_x(MiddlegroundForestLayerId, xMiddleground - scroll_delta_speed / 2.0);*/

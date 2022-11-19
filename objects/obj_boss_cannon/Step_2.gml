@@ -15,7 +15,9 @@ if (boss != noone) {
 			//show_debug_message(len_vec);
 			if (len_vec > 0.5) {
 				angle = arccos((dino.x - x) / len_vec);
-				image_angle = 0 - radtodeg(angle) + offsetAngle; //- offsetAngle;
+				angleFinal = 0 - radtodeg(angle) + offsetAngle; //- offsetAngle;
+				angleFinal = min(max(angleFinal, angleMin), angleMax);
+				image_angle = angleFinal;
 			}
 		}
 		else
