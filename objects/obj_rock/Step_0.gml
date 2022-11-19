@@ -1,7 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(!enabled) exit;
+if(!enabled){
+	x-=scrolling_speed*delta_time/1000000;
+	exit;
+}
 
 vely+=grav*delta_time/1000000;
 

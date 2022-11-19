@@ -2,11 +2,13 @@
 // You can write your code in this editor
 
 
-if(enabled){
-	sprite_index=spr_roche2;
+if(T>0.4 && enabled){
+	sprite_index=spr_laveSol;
 	enabled=false;
 	dir=-90;
-	y-=25;
+	other.sprite_index=spr_ennemi1Death;
+	other.image_index=0;
 }
+
 
 

@@ -85,6 +85,7 @@
     {"id":{"name":"spr_trou","path":"sprites/spr_trou/spr_trou.yy",},"order":1,},
     {"id":{"name":"obj_rocheDeath","path":"objects/obj_rocheDeath/obj_rocheDeath.yy",},"order":5,},
     {"id":{"name":"spr_platefrome_strip5","path":"sprites/spr_platefrome_strip5/spr_platefrome_strip5.yy",},"order":9,},
+    {"id":{"name":"snd_music3","path":"sounds/snd_music3/snd_music3.yy",},"order":6,},
     {"id":{"name":"obj_scrollingController","path":"objects/obj_scrollingController/obj_scrollingController.yy",},"order":0,},
     {"id":{"name":"CocoInfScrolling","path":"rooms/CocoInfScrolling/CocoInfScrolling.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

@@ -1,9 +1,9 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_music1",
+  "name": "snd_music3",
   "conversionMode": 0,
-  "compression": 1,
+  "compression": 0,
   "volume": 1.0,
   "preload": false,
   "bitRate": 128,
@@ -11,11 +11,11 @@
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "music",
-    "path": "audiogroups/music",
+    "name": "audiogroup_default",
+    "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_music1.mp3",
-  "duration": 35.787724,
+  "soundFile": "snd_music3.mp3",
+  "duration": 9.63915,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
