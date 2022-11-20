@@ -19,6 +19,8 @@
     {"id":{"name":"spr_scroll_forground","path":"sprites/spr_scroll_forground/spr_scroll_forground.yy",},"order":12,},
     {"id":{"name":"spr_raptor","path":"sprites/spr_raptor/spr_raptor.yy",},"order":12,},
     {"id":{"name":"seq_pattern4","path":"sequences/seq_pattern4/seq_pattern4.yy",},"order":7,},
+    {"id":{"name":"seq_pattern6","path":"sequences/seq_pattern6/seq_pattern6.yy",},"order":9,},
+    {"id":{"name":"seq_pattern5","path":"sequences/seq_pattern5/seq_pattern5.yy",},"order":8,},
     {"id":{"name":"obj_roche","path":"objects/obj_roche/obj_roche.yy",},"order":2,},
     {"id":{"name":"spr_sol4","path":"sprites/spr_sol4/spr_sol4.yy",},"order":6,},
     {"id":{"name":"obj_rock","path":"objects/obj_rock/obj_rock.yy",},"order":3,},

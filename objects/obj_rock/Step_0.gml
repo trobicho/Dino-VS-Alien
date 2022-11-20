@@ -19,6 +19,9 @@ T+=delta_time/1000000;
 dir=point_direction(prevX,prevY,x,y);
 prevX=x;
 prevY=y;
+Ax-=scrolling_speed*delta_time/1000000;
+Bx-=scrolling_speed*delta_time/1000000;
+Cx-=scrolling_speed*delta_time/1000000;
 
 /*
 var controllerScrolling = instance_find(obj_controllerScrolling, 0);
