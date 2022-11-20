@@ -62,10 +62,25 @@ else {
 if (place_meeting(x, y + Y, obj_collider)) {
 	//var Yp = Y / 20.0;
 	var Yp = sign(Y);
+	if (Yp < 0 && spdY < 0) {
+		spdY = 0;
+	}
 	while (!place_meeting(x, y + Yp, obj_collider)) {
 		y += Yp;
 	}
 }
+
 else {
 	y += Y;
 }
+
+if (x < 0 && !place_meeting(x + 1, y, obj_collider)) {
+	x = 0;
+}
+
+if (x + sprite_width > room_width) {
+	x = room_width - sprite_width
+}
+
+if (x < -sprite_width || y > room_height + sprite_height)
+	Health = 0;
