@@ -2,9 +2,4 @@
 // You can write your code in this editor
 
 
-spd=100;
-
-stretching=true;
-stretch = 0.5;
-dir = 0;
-bboxRight = bbox_right;
+draw_sprite_ext(sprite_index, image_index, x, y, stretch, 1.0, dir, c_white, 1);

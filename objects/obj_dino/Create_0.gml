@@ -14,3 +14,5 @@ invincible=false;
 invFrame=3;
 blinkRate=0.2;
 col=0;
+targetX = 64;
+targetY = -42;

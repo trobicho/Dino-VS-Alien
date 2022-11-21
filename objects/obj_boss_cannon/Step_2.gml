@@ -11,25 +11,29 @@ if (boss != noone) {
 	if (dino != noone) {
 		if (boss.state != 2) {
 			
-			len_vec = sqrt((dino.x - x) * (dino.x - x) + (dino.y - y) * (dino.y - y));
+			var targetX = dino.x + dino.targetX;
+			var targetY = dino.y + dino.targetY;
+			len_vec = sqrt((targetX - x) * (targetX - x) + (targetY - y) * (targetY - y));
 			//show_debug_message(len_vec);
 			if (len_vec > 0.5) {
-				angle = arccos((dino.x - x) / len_vec);
+				angle = arccos((targetX - x) / len_vec);
 				angleFinal = 0 - radtodeg(angle) + offsetAngle; //- offsetAngle;
 				angleFinal = min(max(angleFinal, angleMin), angleMax);
 				image_angle = angleFinal;
 			
-				with (instance_create_depth(x, y, depth + 1, obj_boss_laser)) {
-					startX=x;
-					startY=y;
-					lerping=true;
-					image_angle = other.angleFinal;
-					dir = other.angleFinal;
+				if (instance_exists(obj_boss_laser) == false) {
+					instance_create_depth(x, y, 350, obj_boss_laser);
 				}
-			
+				with (instance_find(obj_boss_laser, 0)) {
+					x=other.x;
+					y=other.y;
+					dir =  other.angleFinal - other.offsetAngle;
+				}
 			}
 		}
-		else
+		else {
+			instance_destroy(obj_boss_laser);
 			image_angle = angle + boss.image_angle;
+		}
 	}
 }

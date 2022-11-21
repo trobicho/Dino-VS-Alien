@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-offsetX = -10;
-offsetY = 83;
+offsetX = -5;
+offsetY = 43;
 offsetAngle = 90;
 angle = 0;
 angleMin = 0;

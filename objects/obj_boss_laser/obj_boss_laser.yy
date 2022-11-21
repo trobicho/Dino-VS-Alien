@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_boss_laser",
   "spriteId": {
-    "name": "spr_bullet1",
-    "path": "sprites/spr_bullet1/spr_bullet1.yy",
+    "name": "spr_boss_laser",
+    "path": "sprites/spr_boss_laser/spr_boss_laser.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,6 +27,7 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

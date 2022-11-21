@@ -74,11 +74,10 @@ else {
 	y += Y;
 }
 
-if (x < 0 && !place_meeting(x + 1, y, obj_collider)) {
-	x = 0;
-}
-
 if (Health > 0) {
+	if (x < 0 && !place_meeting(x + 1, y, obj_collider)) {
+		x = 0;
+	}
 	if (x + sprite_width > room_width)
 		x = room_width - sprite_width
 
