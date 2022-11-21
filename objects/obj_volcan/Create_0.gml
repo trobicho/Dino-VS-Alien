@@ -10,7 +10,7 @@ is_shooting=false;
 shoot_cooldown=0.8;
 //can_shoot=true;
 
-initCooldown=3;
+initCooldown=1;
 //can_shoot=true;
 can_shoot=false;
 volcano_offset_x = x;
