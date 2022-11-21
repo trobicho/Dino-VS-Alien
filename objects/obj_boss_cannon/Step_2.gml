@@ -18,6 +18,15 @@ if (boss != noone) {
 				angleFinal = 0 - radtodeg(angle) + offsetAngle; //- offsetAngle;
 				angleFinal = min(max(angleFinal, angleMin), angleMax);
 				image_angle = angleFinal;
+			
+				with (instance_create_depth(x, y, depth + 1, obj_boss_laser)) {
+					startX=x;
+					startY=y;
+					lerping=true;
+					image_angle = other.angleFinal;
+					dir = other.angleFinal;
+				}
+			
 			}
 		}
 		else

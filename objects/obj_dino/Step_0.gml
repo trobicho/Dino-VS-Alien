@@ -78,9 +78,10 @@ if (x < 0 && !place_meeting(x + 1, y, obj_collider)) {
 	x = 0;
 }
 
-if (x + sprite_width > room_width) {
-	x = room_width - sprite_width
-}
+if (Health > 0) {
+	if (x + sprite_width > room_width)
+		x = room_width - sprite_width
 
-if (x < -sprite_width || y > room_height + sprite_height)
-	Health = 0;
+	if (x < -sprite_width || y > room_height + sprite_height)
+		Health = 0;
+}
