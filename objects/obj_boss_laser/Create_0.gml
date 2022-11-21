@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-spd=100;
+spd=500;
 
 stretching=true;
 stretch = 0.5;
