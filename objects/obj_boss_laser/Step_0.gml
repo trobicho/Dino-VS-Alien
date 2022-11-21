@@ -38,6 +38,8 @@ with (collision_line(x, y, x + lenX, y + lenY, obj_dino, false, true)) {
 			alarm[1]=invFrame*room_speed;
 			invincible=true;
 		}
+		audio_sound_pitch(SDX_dinoHit2, 1+random_range(-0.3,0.3));
+		audio_play_sound(SDX_dinoHit2,1,false);
 	}
 	other.stretching = false;
 	other.stretch = point_distance(other.x, other.y, x + targetX, y + targetY);

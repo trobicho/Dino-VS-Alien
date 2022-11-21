@@ -17,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 512,
   "height": 512,
   "textureGroupId": {
@@ -57,7 +58,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 251,
+    "xorigin": 249,
     "yorigin": 299,
     "eventToFunction": {},
     "eventStubScript": null,

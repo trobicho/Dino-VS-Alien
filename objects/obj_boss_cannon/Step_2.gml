@@ -28,12 +28,19 @@ if (boss != noone) {
 					x=other.x;
 					y=other.y;
 					dir =  other.angleFinal - other.offsetAngle;
+					if (stretch >= 2.0) {
+						other.sprite_index = spr_boss_cannon_laser;
+					}
+					else {
+						other.sprite_index = spr_boss_cannon;
+					}
 				}
 			}
 		}
 		else {
 			instance_destroy(obj_boss_laser);
 			image_angle = angle + boss.image_angle;
+			sprite_index = spr_boss_cannon;
 		}
 	}
 }

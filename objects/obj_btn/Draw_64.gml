@@ -14,6 +14,3 @@ else{
 	
 	draw_text_color(posX,posY,text,c_white,c_white,c_white,c_white,255);
 }
-
-
-

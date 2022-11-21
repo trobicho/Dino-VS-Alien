@@ -11,7 +11,7 @@ cur_advance = 0;
 back_clock = 0;
 invulnerability_timer = 10;
 
-boss_alien_state_anim = [[0, 1, 2, 3, 4, 5, 6], [7, 3, 2, 1, 0]];
+boss_alien_state_anim = [[0, 1, 2, 3, 4, 5, 6, 7], [8, 7, 4, 3, 2, 1]];
 boss_alien_anim_index = -1;
 anim_clock_alien = 0;
 alarm_set(0, invulnerability_timer * room_speed);

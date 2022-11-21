@@ -20,6 +20,8 @@ if(!just_hit){
 		//alarm[2]=blinkRate*room_speed;
 		invincible=true;
 	}
+	audio_sound_pitch(SDX_dinoHit2, 1+random_range(-0.3,0.3));
+	audio_play_sound(SDX_dinoHit2,1,false);
 }
 
 

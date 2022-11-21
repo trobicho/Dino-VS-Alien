@@ -34,3 +34,21 @@ if (state != 0) {
 		}
 	}
 }
+
+if (state == 1) {
+	if (!audio_is_playing(SFXBossWobble)) {
+		audio_play_sound(SFXBossWobble, 1, true);
+	}
+	var distDino = room_width;
+	var dino = instance_find(obj_dino, 0);
+	if (dino != noone) {
+		distDino = point_distance(x, y, dino.x + dino.targetX, dino.y + dino.targetY);
+	}
+	var gain = min((distDino - 100) / (room_width - 100), 1.0);
+	show_debug_message(gain);
+	audio_sound_gain(SFXBossWobble, 1.0 - gain, 0);
+}
+
+else {
+	audio_stop_sound(SFXBossWobble);
+}

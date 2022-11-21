@@ -3,7 +3,7 @@
 
 grv = 30;
 jump_speed = 750.0;
-delta_speed = 300.0;
+delta_speed = 400.0;
 spdX = 0.0;
 spdY = 0.0;
 Health=3;
